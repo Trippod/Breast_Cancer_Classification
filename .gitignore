@@ -1,0 +1,13 @@
+# ── ignoruj całe venv ───────────
+venv/
+
+# artefakty Pythona
+__pycache__/
+*.py[cod]
+
+# logi / wyjścia
+outputs/
+
+# modele (jeśli nie chcesz trzymać binarek w repo)
+models/*.pkl
+models/*.h5
